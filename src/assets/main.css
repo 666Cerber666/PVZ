@@ -1,0 +1,51 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+/* primary colors */
+
+.bg {
+  background-color:#BAD0E2 ;
+}
+
+.fs{
+  box-shadow: 0px 2px 10px 0px #00000040;
+}
+
+.text-color{
+  color:#034EA2 ;
+}
+
+.bg-button{
+  background-color:#2D609B;
+  ;
+}
+
+.text-button{
+  color:#2D609B;
+}
+
+.active{
+  color:#00AA8A;
+
+}
