@@ -33,7 +33,7 @@
 
 <style scoped>
 .header-on-search{
-    background-color: white;
+    background-color: #F2F2F2 ;
     border: none;
 }
 

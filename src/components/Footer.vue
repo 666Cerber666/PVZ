@@ -10,7 +10,7 @@
                     <font-awesome-icon icon="barcode" class="text-lg mr-2" />
                     Сканер
                 </div>
-                <div class="flex flex-col text-green-600 justify-center" @click="$router.go(-1)">
+                <div class="flex flex-col justify-center" @click="$router.go(-1)">
                     <font-awesome-icon icon="chevron-left" class="text-lg mr-2" />
                     Назад
                 </div>
